@@ -145,10 +145,10 @@ IMU_DESC_ENTRY(IMU_BMP160, PRIMARY_IMU_ADDRESS_ONE, IMU_ROTATION, PIN_IMU_SCL, P
 //  #define LED_PIN 2
 //  #define LED_INVERTED false
 #elif BOARD == BOARD_CUSTOM
-  #define PIN_IMU_SDA D2
-  #define PIN_IMU_SCL D1
-  #define PIN_IMU_INT D5
-  #define PIN_IMU_INT_2 D6
+  #define PIN_IMU_SDA 4
+  #define PIN_IMU_SCL 5
+  #define PIN_IMU_INT 16
+  #define PIN_IMU_INT_2 14
   #define PIN_BATTERY_LEVEL A0
 //  #define LED_PIN 2
 //  #define LED_INVERTED true
